@@ -111,7 +111,7 @@ def present(name, driver=None, driver_opts=None, force=False):
     .. code-block:: yaml
 
         volume_bar:
-          docker_volume.present
+          docker_volume.present:
             - name: bar
             - driver: local
             - driver_opts:
@@ -120,7 +120,7 @@ def present(name, driver=None, driver_opts=None, force=False):
     .. code-block:: yaml
 
         volume_bar:
-          docker_volume.present
+          docker_volume.present:
             - name: bar
             - driver: local
             - driver_opts:
